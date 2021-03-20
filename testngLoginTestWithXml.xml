@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5" parallel="tests" >
+  <test  name="ITeration1">
+ 	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="uid" value="chanikyareddy231"></parameter>
+  	 <parameter name="uic" value="valid"></parameter>
+ 	 <parameter name="pwd" value="Chanikya231"></parameter>
+ 	 <parameter name="pwc" value="valid"></parameter>
+ 	 <classes>
+ 	 	<class name="tests.LoginTestWithXml"></class>
+ 	 </classes>
+  </test> 
+  <test  name="ITeration2">
+ 	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="uid" value=""></parameter>
+  	 <parameter name="uic" value="blank"></parameter>
+ 	 <parameter name="pwd" value="N/A"></parameter>
+ 	 <parameter name="pwc" value="N/A"></parameter>
+ 	 <classes>
+ 	 	<class name="tests.LoginTestWithXml"></class>
+ 	 </classes>
+  </test> 
+  <test  name="ITeration3">
+ 	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="uid" value="chanikyaredddy231"></parameter>
+  	 <parameter name="uic" value="invalid"></parameter>
+ 	 <parameter name="pwd" value="N/A"></parameter>
+ 	 <parameter name="pwc" value="N/A"></parameter>
+ 	 <classes>
+ 	 	<class name="tests.LoginTestWithXml"></class>
+ 	 </classes>
+  </test>  
+  <test  name="ITeration4">
+ 	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="uid" value="chanikyareddy231"></parameter>
+  	 <parameter name="uic" value="valid"></parameter>
+ 	 <parameter name="pwd" value=""></parameter>
+ 	 <parameter name="pwc" value="blank"></parameter>
+ 	 <classes>
+ 	 	<class name="tests.LoginTestWithXml"></class>
+ 	 </classes>
+  </test> 
+  <test  name="ITeration5">
+ 	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="uid" value="chanikyareddy231"></parameter>
+  	 <parameter name="uic" value="valid"></parameter>
+ 	 <parameter name="pwd" value="Chanikya232"></parameter>
+ 	 <parameter name="pwc" value="invalid"></parameter>
+ 	 <classes>
+ 	 	<class name="tests.LoginTestWithXml"></class>
+ 	 </classes>
+  </test>  
+</suite> 
